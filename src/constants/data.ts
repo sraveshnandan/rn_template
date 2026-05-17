@@ -106,3 +106,5 @@ export const HOME_SUBSCRIPTIONS: Subscription[] = [
         color: "#b8e8d0",
     },
 ];
+
+export const api_url = "https://subdub-sigma.vercel.app/"
