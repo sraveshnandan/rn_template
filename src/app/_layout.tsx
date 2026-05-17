@@ -3,7 +3,7 @@ import "../../global.css"
 export default function RootLayout() {
   return (
     <Stack>
-      <Stack.Screen options={{ statusBarStyle: "dark" }} name="Onboarding" />
+      <Stack.Screen options={{ statusBarStyle: "dark", headerShown:false }} name="Onboarding" />
     </Stack>
   );
 }
